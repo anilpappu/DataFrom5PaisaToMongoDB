@@ -6,19 +6,19 @@
 
 from py5paisa import FivePaisaClient
 cred={
-    "APP_NAME":"5P59695694",
+    "APP_NAME":"5P694",
     "APP_SOURCE":"5367",
-    "USER_ID":"ulGCwQinUw6",
-    "PASSWORD":"ggniVTHwhMA",
-    "USER_KEY":"M0Y3qsUJXwqOoJGxA5nGw5OfyKxGoxg8",
-    "ENCRYPTION_KEY":"3iRMtiLFk7LrgToWCUwyMMETjte3LAoM"
+    "USER_ID":"ulGCnUw6",
+    "PASSWORD":"ggnwhMA",
+    "USER_KEY":"M0Y3qsUA5nGw5OfyKxGoxg8",
+    "ENCRYPTION_KEY":"3iRMtiWCUwyMMETjte3LAoM"
     }
 
 
 # In[2]:
 
 
-get_ipython().run_cell_magic('writefile', 'keys.conf', '[KEYS]\nAPP_NAME=5P59695694\nAPP_SOURCE=5367\nUSER_ID=ulGCwQinUw6\nPASSWORD=ggniVTHwhMA\nUSER_KEY=M0Y3qsUJXwqOoJGxA5nGw5OfyKxGoxg8\nENCRYPTION_KEY=3iRMtiLFk7LrgToWCUwyMMETjte3LAoM')
+get_ipython().run_cell_magic('writefile', 'keys.conf', '[KEYS]\nAPP_NAME=5P55694\nAPP_SOURCE=5367\nUSER_ID=ulGinUw6\nPASSWORD=ggniVhMA\nUSER_KEY=M0Y3qsUJXwGxA5nGw5OfyKxGoxg8\nENCRYPTION_KEY=3iRMtiLFk7LrgToWCUwyMMETjte3LAoM')
 
 
 # In[ ]:
@@ -31,7 +31,7 @@ get_ipython().run_cell_magic('writefile', 'keys.conf', '[KEYS]\nAPP_NAME=5P59695
 
 
 
-client = FivePaisaClient(email="jawaadfazal@gmail.com", passwd="Siddiq@123", dob="19910309",cred=cred)
+client = FivePaisaClient(email="jaal@gmail.com", passwd="Si23", dob="19021309",cred=cred)
 client.login()
 
 
